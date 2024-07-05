@@ -3,7 +3,7 @@ import time
 import pandas as pd
 
 #The path to the CSV file is specified, and the file is read into a DataFrame using pandas.
-csv_file_path = "C:/Users/uzair/Downloads/7424/POCs Demo/selected_rows.csv"
+csv_file_path = "cordinats data.csv"
 df = pd.read_csv(csv_file_path)
 
 # Initialize ZeroMQ context and socket for publishing
