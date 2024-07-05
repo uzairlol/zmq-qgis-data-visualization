@@ -1,5 +1,3 @@
-Sure! Here is a detailed README file for your ZMQ publisher and subscriber code:
-
 ---
 
 # ZMQ Publisher and Subscriber with QGIS Integration
