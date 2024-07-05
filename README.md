@@ -43,3 +43,6 @@ How it works: The subscriber script dynamically creates and updates a point laye
 * The subscriber script uses a timer to update the QGIS map canvas every second. Adjust the timer interval (`timer.start(1000)`) as needed.
 
 This project provides a basic example of using ZeroMQ for real-time data communication and visualization in QGIS. You can extend it to suit your specific data format, visualization requirements, and communication needs.
+
+***Screenshots of map canvas***
+![image](https://github.com/uzairlol/zmq-qgis-data-visualization/assets/154930659/7cf95f99-ea83-49ac-a606-34d75bb63d82)
