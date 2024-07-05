@@ -35,7 +35,7 @@ This repository contains example code for a ZeroMQ (ZMQ) publisher and subscribe
 
 1. **Set the path to your CSV file** in `publisher.py`:
    ```python
-   csv_file_path = "C:/Users/uzair/Downloads/7424/POCs Demo/selected_rows.csv"
+   csv_file_path = "selected_rows.csv"
    ```
 
 2. **Run the publisher**:
@@ -47,7 +47,7 @@ This repository contains example code for a ZeroMQ (ZMQ) publisher and subscribe
 
 1. **Set the path to your shapefile** in `subscriber.py`:
    ```python
-   layer_path = "C:/Users/uzair/Downloads/7424/POCs Demo/shapefiles/Map_real_poc.shp"
+   layer_path = "shapefiles.shp"
    ```
 
 2. **Run the subscriber**:
@@ -61,7 +61,7 @@ import zmq
 import time
 import pandas as pd
 
-csv_file_path = "C:/Users/uzair/Downloads/7424/POCs Demo/selected_rows.csv"
+csv_file_path = "selected_rows.csv"
 df = pd.read_csv(csv_file_path)
 
 context = zmq.Context()
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     canvas.setCanvasColor(Qt.black)
     canvas.show()
 
-    layer_path = "C:/Users/uzair/Downloads/7424/POCs Demo/shapefiles/Map_real_poc.shp"
+    layer_path = "shapefiles.shp"
     vlayer = QgsVectorLayer(layer_path, "Shape File", "ogr")
     vlayer.renderer().symbol().setColor(Qt.green)
 
