@@ -113,7 +113,7 @@ if __name__ == '__main__':
     canvas.show()
 
     # Load an example vector layer from a shapefile
-    layer_path = "C:/Users/uzair/Downloads/7424/POCs Demo/shapefiles/Map_real_poc.shp"
+    layer_path = "shapefile.shp"
     vlayer = QgsVectorLayer(layer_path, "Shape File", "ogr")
     # Set the color of the vector layer to green
     vlayer.renderer().symbol().setColor(Qt.green)
